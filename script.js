@@ -1,5 +1,5 @@
 const root = document.querySelector(":root")
-const handle = document.querySelector(".handle")
+const handle = document.querySelector(".handle-container")
 let mdown = false
 
 handle.addEventListener("mousedown", (e) => {
