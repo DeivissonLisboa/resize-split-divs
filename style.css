@@ -1,6 +1,6 @@
 :root {
   --left-size: 50%;
-  --right-size: 50%;
+  --right-size: calc(100% - var(--left-size));
 }
 
 * {
